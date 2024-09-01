@@ -1,0 +1,40 @@
+html {
+background: url(formspic.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+td{
+height: 80px;
+width: 160px;
+text-align: center;
+vertical-align: middle;
+background-color: pink;
+}
+th{
+background-color: aqua;
+}
+table{
+background: violet;
+}
+center {
+margin-left: auto;
+margin-right: auto;
+}
+table, th, td {
+border: 5px solid black;
+margin-left: auto;
+margin-right: auto;
+border-collapse: collapse;
+text-align: center;
+}
+img {
+position:relative;
+top: 20%;
+left: 30%;
+width: 200px;
+height: 100px;
+margin-top: -150px; /* Half the height */
+margin-left: -150px; /* Half the width */
+}
